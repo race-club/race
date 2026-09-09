@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://sprc9034.github.io/Race-website",
+  "homepage": "https://race-club.github.io/race",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
