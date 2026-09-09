@@ -7,7 +7,7 @@ export default function WorkshopsPage({ onOpenRegister }) {
 
   useEffect(() => {
     // Google Apps Script Web App URL
-    const API_URL = "https://script.google.com/macros/s/AKfycbzp1uGRci0Gzq8TST6SeVSQwBrzFV0uKfv0hOkm-lUrO1pQUAuWAY3B1WTXA030IFdf/exec";
+    const API_URL = "https://script.google.com/macros/s/AKfycbwR2JWAHOU9Hq1P2D-ZY_Vb3HMgHnYLV5nGy4zgT2MlXTSla70fgSbOnq7vxtAqJIWC/exec";
 
     fetch(API_URL)
       .then((res) => res.json())

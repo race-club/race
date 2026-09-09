@@ -8,7 +8,7 @@ export default function ProjectsPage() {
   const [projects, setProjects] = useState([]);
   const [selectedPdf, setSelectedPdf] = useState(null);
 
-  const API_URL = "https://script.google.com/macros/s/AKfycbxdIVVwsAfTV1qL75t1LIti0Hvz05pQpTVMHNfYeyaavNDw94SS9Jy9xdGXxS2MVQFOPw/exec"; // Replace URL
+  const API_URL = "https://script.google.com/macros/s/AKfycbyuYwPDon90B0ml-i1qf6_py4W_XQTRbq9kyclmo5xM1fprYMFgSGFQ57Opj0aPq-Sy/exec"; // Replace URL
 
   const handleUnlock = (e) => {
     e.preventDefault();
